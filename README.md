@@ -61,10 +61,13 @@ FINCHE' il valore di evenOdd è diverso da "pari" o dispari"
     assegno a evenOdd un nuovo prompt
 
 Creo una variabile playerNumber il cui valore è un prompt
+Scrivo un alert con il numero del giocatore
 Creo una variabile computerNumber il cui valore sarà un numero da 1 a 5 dato dalla funzione randomNumber
+Scrivo un alert con il numero del computer
 Creo una variabile somma il cui valore è la somma di playerNumber e computerNumber
+Scrivo un alert con la somma del numero del giocatore e del computer
 
-SE il giocatore ha scelto pari E la variabile somma è pari (attraverso funzione isEvenOdd) OPPURE il giocatore ha scelto dispari E la variabile somma è dispari (attraverso la funzione isEvenOdd)
+SE il giocatore ha scelto pari E la variabile somma è pari (attraverso funzione isEven) OPPURE il giocatore ha scelto dispari E la variabile somma è dispari (attraverso la funzione isEven)
     Scrivo che il giocatore ha vinto la partita
 ALTRIMENTI
     Scrivo che il giocatore ha perso la partita
