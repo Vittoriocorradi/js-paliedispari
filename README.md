@@ -32,3 +32,39 @@ SE booleanResult è vera
     compare un alert con scritto che la parola è palindroma
 ALTRIMENTI
     compare un alert con scritto che la parola non è palindroma
+
+
+
+ESERCIZIO PARI O DISPARI
+
+FUNZIONI
+
+Funzione numero random intero
+
+scrivo una funzione randomNumber che ha per argomenti min e max (valore minimo e valore massimo del numero casuale)
+estrapolo il numero generato casualmente
+
+Funzione pari o dispari
+
+scrivo una funzione isEvenOdd che ha per argomento un numero
+creo una variabile result con valore falso come partenza
+SE il numero diviso due dà resto zero
+    assegno a result il valore vero
+Estrapolo il risultato
+
+ESERCIZIO
+
+Creo una variabile evenOdd il cui valore è un prompt
+
+FINCHE' il valore di evenOdd è diverso da "pari" o dispari"
+    scrivo un alert che avverità l'utente di scrivere o "pari" o "dispari
+    assegno a evenOdd un nuovo prompt
+
+Creo una variabile playerNumber il cui valore è un prompt
+Creo una variabile computerNumber il cui valore sarà un numero da 1 a 5 dato dalla funzione randomNumber
+Creo una variabile somma il cui valore è la somma di playerNumber e computerNumber
+
+SE il giocatore ha scelto pari E la variabile somma è pari (attraverso funzione isEvenOdd) OPPURE il giocatore ha scelto dispari E la variabile somma è dispari (attraverso la funzione isEvenOdd)
+    Scrivo che il giocatore ha vinto la partita
+ALTRIMENTI
+    Scrivo che il giocatore ha perso la partita
