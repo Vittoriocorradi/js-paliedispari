@@ -29,6 +29,12 @@ while (evenOdd !== 'pari' && evenOdd !== 'dispari') {
 
 // Input giocatore
 let playerNumber = Number(prompt('Inserisci un numero intero da 1 a 5'));
+
+while (!Number.isInteger(Number(playerNumber)) || playerNumber < 1 || playerNumber > 5) {
+    alert('Scrivere un numero intero da 1 a 5!')
+    playerNumber = prompt('Inserisci un numero intero da 1 a 5');
+}
+
 alert(`Il tuo numero è ${playerNumber}`);
 // Numero casuale computer
 const computerNumber = randomNumber(1,5);
